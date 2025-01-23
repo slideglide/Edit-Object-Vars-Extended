@@ -89,22 +89,22 @@ bool EditObjectPopup::setup() {
 
     auto xPosLabel = CCLabelBMFont::create("Obj. Xpos", "goldfont.fnt");
     xPosLabel->setPosition(105.f, winSize.height / 2 + 62);
-    xPosLabel->setScale(.75f);
+    xPosLabel->setScale(.65f);
     auto yPosLabel = CCLabelBMFont::create("Obj. Ypos", "goldfont.fnt");
     yPosLabel->setPosition(105.f, winSize.height / 2 );
-    yPosLabel->setScale(.75f);
+    yPosLabel->setScale(.65f);
     auto scaleXLabel = CCLabelBMFont::create("Obj. Scale X", "goldfont.fnt");
     scaleXLabel->setPosition(225.f, winSize.height / 2 + 62);
-    scaleXLabel->setScale(.75f);
+    scaleXLabel->setScale(.65f);
     auto scaleYLabel = CCLabelBMFont::create("Obj. Scale Y", "goldfont.fnt");
     scaleYLabel->setPosition(225.f, winSize.height / 2);
-    scaleYLabel->setScale(.75f);
+    scaleYLabel->setScale(.65f);
     auto rotationLabel = CCLabelBMFont::create("Obj. Rotation", "goldfont.fnt");
     rotationLabel->setPosition(330.f, winSize.height / 2 + 32);
-    rotationLabel->setScale(.75f);
+    rotationLabel->setScale(.65f);
     auto zOrderLabel = CCLabelBMFont::create("Obj. Z order", "goldfont.fnt");
     zOrderLabel->setPosition(445.f, winSize.height / 2 + 32);
-    zOrderLabel->setScale(.75f);
+    zOrderLabel->setScale(.65f);
     this->addChild(xPosLabel);
     this->addChild(yPosLabel);
     this->addChild(scaleXLabel);
