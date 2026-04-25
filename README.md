@@ -1,23 +1,20 @@
-# editObjectVariables
-This is where she makes a mod.
+# Edit Object Vars Extended
+Originally created by Jojo989 but now updated and extended by me, GWDdoS.
 
-<img src="logo.png" width="150" alt="the mod's logo" />
+# Features
+Contains many features to edit the variables of objects in the editor by clicking the button when selecting an object. Many more features planed for the future as well!
 
-*Update logo.png to change your mod's icon (please)*
+- Edit Position X and Y
+- Edit Scale X and Y
+- Edit Rotation
+- Edit Z Order
 
-## Getting started
-We recommend heading over to [the getting started section on our docs](https://docs.geode-sdk.org/getting-started/) for useful info on what to do next.
+# Planned Features
+- High Precision Editor Support (?)
+- Shear support
+- Layer support
+- Mobile/Mac support
 
-## Build instructions
-For more info, see [our docs](https://docs.geode-sdk.org/getting-started/create-mod#build)
-```sh
-# Assuming you have the Geode CLI set up already
-geode build
-```
-
-# Resources
-* [Geode SDK Documentation](https://docs.geode-sdk.org/)
-* [Geode SDK Source Code](https://github.com/geode-sdk/geode/)
-* [Geode CLI](https://github.com/geode-sdk/cli)
-* [Bindings](https://github.com/geode-sdk/bindings/)
-* [Dev Tools](https://github.com/geode-sdk/DevTools)
+# Credits
+- Jojo989 Original creator of this mod
+- GWDdoS Current maintainer and updater of this mod

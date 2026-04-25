@@ -1,17 +1,21 @@
 {
-	"geode": "4.2.0",
+	"geode": "5.6.1",
 	"gd": {
-		"win": "2.2074"
+		"win": "2.2081",
+		"mac": "2.2081",
+		"android": "2.2081",
+		"ios": "2.2081"
 	},
-	"id": "jojo989.editobjectvariables",
-	"name": "editObjectVariables",
-	"version": "v1.1.1",
-	"developer": "jojo989",
-	"description": "mod to edit object variables like xpos, ypos, etc",
+	"id": "gwddos.editobjectvarsextended",
+	"name": "Edit Object Vars Extended",
+	"version": "v2.0.0",
+	"developers": ["Jojo989", "GWDdoS"],
+	"description": "Mod to edit object variables like xpos, ypos, etc Now updated for 2.2081",
 	"resources": {
 		"spritesheets": {
 			"EditObjButton": [
-				"resources/editSprite.png"
+				"resources/editSprite.png",
+				"resources/editSprite2.png"
 			]
 		}
 	}

@@ -1,12 +1,13 @@
 #pragma once
 #include <Geode/Geode.hpp>
+#include <Geode/ui/Popup.hpp>
 #include <Geode/modify/EditorUI.hpp>
 
 using namespace geode::prelude;
 
-class EditObjectPopup : public geode::Popup<> {
+class EditObjectPopup : public geode::Popup {
 	protected:
-		bool setup() override;
+		bool init(float width, float height);
 		float objectID;
 		CCMenuItemSpriteExtra* m_applyButton;
 		void createInputs();
