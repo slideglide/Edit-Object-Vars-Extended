@@ -1,5 +1,6 @@
 # 2.1.1
 - Rewrite of the mod with better UI handling, custody of [slideglide](https://github.com/slideglide)
+- Scaling should now be able to scale hitboxes properly
 
 # 2.1.0
 - Mobile support
